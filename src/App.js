@@ -7,7 +7,7 @@ class App extends React.Component {
     todos: [
       null
     ]
-  }
+  } 
 
   addTodo = (todo) => {
     todo.id = Math.random()
